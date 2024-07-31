@@ -1,0 +1,239 @@
+.head {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+}
+.left {
+  display: flex;
+  width: 52%;
+  height: 100%;
+  margin: 0.5rem 0 0 1.5rem;
+  /* background-color: red; */
+}
+.left img {
+  height: 2.7rem;
+  margin: .5rem -3rem 0 5rem;
+}
+.left section {
+  margin: 0 0 1rem 5rem;
+  position: relative;
+  display: flex;
+  width: 35rem;
+  align-items: center;
+}
+.left section input {
+  width: 100%;
+  height: 65%;
+  border-radius: 0.3rem;
+  border: none;
+  outline: none;
+  background-color: #e5f0ff;
+  padding: 0 0 0 3rem;
+  font-family: "Roboto",sans-serif;
+  color: #555555;
+  font-size: 1.2rem;
+}
+
+.left section img {
+  height: 50%;
+  left: 0%;
+  position: absolute;
+  margin: 0 0 0 0.5rem;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.right {
+  display: flex;
+  width: 35%;
+  height: 100%;
+  align-items: center;
+  padding: 0 0 0 5rem;
+  gap: 6rem ;
+}
+.right .combo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;   
+}
+.combo img {
+  height: 25%;
+}
+.combo label {
+  font-size: 1rem;
+  text-transform: capitalize;
+  color: #555555;
+  font-family: "Roboto", sans-serif;
+  margin-left: .3rem;
+}
+.right .combo:nth-of-type(2) label {
+  margin-left: 1rem;
+}
+
+.right .combo:nth-of-type(3) label {
+  margin-left: 1rem;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+input[type="search"]::-moz-search-cancel-button {
+  display: none;
+}
+
+input[type="search"]::-ms-clear {
+  display: none;
+}
+
+
+/* A). Foreign Laguage
+          1. Spanish
+          2. German
+          3. French
+
+   B). Public Speaking Jobs.
+          1. Professional Speaker
+          2. Trainee / Corporate Trainee
+          3. Lectures / Professor
+          4. Sales Representative
+          5. Marketing Manager
+          6. Public Relations Specialist
+          7. Even Host /Emcee
+          8. Broadcast journalist/ News Anchor
+          9. Podcast Host
+
+   C). Project Management Jobs.
+          1. Project Coordinator
+          2. Program Manager
+          3. Project Manager
+          4. PortFolio Manager
+
+   D). User Experience Jobs.
+          1. UX Writer
+          2. UX Researcher
+          3. UI Designer
+          4. UX Designer
+          5. Product Designer
+
+   E). Sale & Business Development Jobs.
+          1. Sales Representative
+          2. Sales Manager
+          3. Account Executive
+          4. Business Development Representative (BDR)
+          5. Inside Sales Representative
+          6. Field Sales Representative
+          7. Sales Director
+
+   F). Finance and Accounting
+
+                [Financial Roles]
+          1. Financial Analyst
+          2. Financial Manager  
+          3. Finance Director
+          4. Chief Financial Officer (CFO)
+          5. Investment Banker
+          6. Portfolio Manager
+          7. Treasury Analyst
+          8. Risk Manager
+
+                [Accounting Roles]
+          1.Accountant
+          2.Senior Accountant
+          3.Controller
+          4.Accounts Payable Specialist
+          5.Accounts Receivable Specialist
+          6.Auditor
+          7.Forensic Accountant
+          8.Tax Accountant
+          9.Accounting Manager
+          10.Financial Controller
+
+
+   G). Digital Marketing and Content creation
+
+                  [Digital Marketing Jobs]
+          1.Digital Marketing Manager
+          2.SEO Specialist
+          3.PPC Specialist
+          4.Social Media Manager
+          5.Content Marketing Manager
+          6.Email Marketing Specialist
+          7.Affiliate Marketing Manager
+          8.Digital Advertising Specialist
+          9.Web Analytics Specialist
+          10. Growth Hacker
+
+                  [Content Creation Jobs]
+
+          1.Content Creator
+          2.Content Writer
+          3.Copywriter  
+          4.Social Media Content Manager
+          5.Video Producer
+          6.Graphic Designer
+          7.Photographer
+          8.Content Strategist
+          9.UX/UI Designer
+          10.Podcast Producer
+          11.Web-Designer 
+
+
+   H). Data Analysis 
+          1. Data Analyst
+          2. Business Intelligence (BI) Analyst
+          3. Data Scientist
+          4. Data Engineer
+          5. Quantitative Analyst
+          6. Data Architect
+          7. Data Visualization Specialist
+          8. Operations Analyst
+          9. Marketing Analyst
+          10.Risk Analyst
+          11.Customer Insights Analyst
+          12.Healthcare Data Analyst
+          13.Fraud Analyst
+          14.Data Operations Specialist
+          15.Data Quality Analyst
+
+   I). SoftWare Development 
+          1.Software Developer/Engineer { *Seperate skill* }
+          2.Front-End Developer { *Seperate skill* }
+          3.Back-End Developer { *Seperate skill* }
+          4.Full-Stack Developer (Combined of front-End & Back-End)
+          5.Mobile App Developer { *Seperate skill* }
+          6.DevOps Engineer { *Seperate skill* }
+          7.Software Architect 
+          8.Quality Assurance (QA) Engineer
+          9.Security Engineer
+          10.Systems Analyst
+          11.Database Administrator (DBA)
+          12.User Experience (UX) Designer 
+          13.User Interface (UI) Designer
+          14.Game Developer { *Seperate skill* }
+          15.Embedded Systems Developer
+          19.Cloud Engineer { *Seperate skill* }
+
+   J). Artificial Intelligence & Machine learning
+          1. Machine Learning Engineer 
+          2. Data Scientist
+          3. AI Research Scientist 
+          4. Deep Learning Engineer
+          5. Computer Vision Engineer
+          6. Natural Language Processing (NLP) Engineer
+          7. Robotics Engineer
+          8. AI Product Manager
+          9. AI Solutions Architect
+          10.Data Engineer
+          11.AI Ethicist
+          12.Algorithm Engineer
+          13.Knowledge Engineer
+          14.AI/ML Consultant
+          15.Speech Recognition Engineer
+
+
+
+ */
